@@ -9,13 +9,11 @@ public class Digits
 	{ 
 	digitList = new ArrayList <Integer>();
     	int n=num;
-    	int c = digitList.size()-1;
     	if (num==0)
       		digitList.add(0);
     	while (n!=0){
       		digitList.add(c,n%10);
       		n=n/10;
-      		c--;
     	} 
 	}
 
